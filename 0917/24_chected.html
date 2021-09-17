@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=checkbox]:checked+div
+        {
+            height: 0;
+        }
+        div{
+            overflow: hidden;
+            width: 650px;
+            height: 300px;
+
+            /*구형 웹브라우저에서는 이 트랜지션 듀레이션이 일종의 출시직전의 실험기능에 해당된다.*/
+            /*webkit 애플에서 처음 만듬*/
+            /*지금은 크롬, 오페라, 사파리에서 쓰이고는 있는데, 크롬은 '블링크'라는 이름으로*/
+            transition-duration: 1s;
+            -ms-transition-duration:1s;
+            -webkit-transition-duration:1s;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem minus, quod, quas consequuntur voluptatem ipsam necessitatibus accusamus temporibus veritatis laudantium optio! Quasi corrupti cumque sit eligendi quae vitae, ipsum, magni nostrum illo reiciendis itaque, minus suscipit perferendis. Quidem repellendus temporibus doloribus velit impedit ipsum dolore inventore amet magnam, sed quis nihil ratione repellat eligendi harum, dolorem eius saepe veniam facere quaerat rerum perspiciatis mollitia sapiente laboriosam. Labore cupiditate sequi ullam sit quo corporis perspiciatis id tenetur at, error adipisci quasi. Quas enim distinctio a culpa id excepturi officiis necessitatibus neque voluptatem explicabo odit veniam eius magni perferendis, consequuntur consectetur alias corrupti! Illo officiis eaque voluptas nulla necessitatibus perspiciatis assumenda labore eos ea, eligendi beatae eius ut autem similique ducimus suscipit magnam. Porro, quo laudantium dolorum doloremque quia veritatis tempore, nostrum odit sequi ea modi reiciendis? Aut veritatis nemo minus vitae tenetur, magni iure dolores! In exercitationem tempore consequuntur ea maxime. Libero incidunt numquam, amet rerum iusto atque eveniet earum aliquam, vero, cupiditate ducimus est dolores porro ipsam ipsum rem. Quos sint, ad, officiis enim soluta numquam similique libero at molestias consectetur reprehenderit? Neque illo debitis earum veniam illum dolore reprehenderit fuga fugiat sint quibusdam. Tenetur temporibus odit ipsam officia iusto quasi placeat quia fuga odio harum! Totam distinctio praesentium dolor consectetur, sapiente est corporis quas iusto in voluptates ut accusamus exercitationem corrupti unde dolorem culpa. Libero iusto, eum, itaque dolor repellat molestiae sit nesciunt voluptate atque earum commodi praesentium totam, eos aliquid? Adipisci harum distinctio, a nam aspernatur illo quas eaque cupiditate molestias. Corporis velit sapiente minima, labore neque corrupti veritatis quos molestiae consequuntur doloremque blanditiis aliquid laboriosam adipisci libero quae odio unde tenetur! Omnis, perferendis ab fugiat itaque quam illo repudiandae nulla porro amet cumque non, eius dolorem error aliquam. Aperiam inventore similique excepturi, quis nam natus minus maiores.</p>
+    </div>
+</body>
+</html>
